@@ -1,0 +1,94 @@
+body{
+    background-color: oldlace;
+}
+.login_box{
+    border: 1px solid black;
+    background-color: papayawhip;
+}
+
+.menu_div{
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+.welcome_div{
+    background-color: papayawhip;
+    margin-top: 20px;
+}
+
+.login_form{
+    float: left;
+}
+
+.logo_form{
+    float: left;
+}
+
+.register_box{
+
+}
+
+.logo{
+    width: 700px;
+    height: 130px;
+}
+
+.content_box{
+    border: 1px solid gray;
+    display: none;
+    background-color: beige;
+}
+
+.menu_col{
+    width: 200px;
+    background-color: coral;
+}
+
+.content_col{
+    width: 800px;
+    background-color: beige;
+}
+
+.validator_div{
+    margin-left: 20px;
+}
+
+.link1{
+
+}
+
+.lnk0{
+
+}
+
+.lnk1{
+    display: none;
+}
+
+.lnk2{
+    display: none;
+}
+
+.lnk3{
+    display: none;
+}
+
+.lnk4{
+    display: none;
+}
+
+.lnk5{
+    display: none;
+}
+
+.lnk6{
+    display: none;
+}
+
+.lnk7{
+    display: none;
+}
+
+.lnk8{
+    display: none;
+}

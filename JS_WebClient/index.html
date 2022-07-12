@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>My site</title>
+</head>
+<body>
+<div class="login_box" id="login_box">
+    <table>
+        <tr>
+            <td>
+                <div class="logo_form"><img src="img/logo.png" class="logo" alt="whatever"/></div>
+            </td>
+            <td>
+                <div class="login_form">
+                    <div>Client login</div>
+                    <input type="text" id="user_id" placeholder="GirenkoKarina@proj.ca"/>
+                    <input type="text" id="password" placeholder="123"/>
+                    <button onclick="checkLogin()">Login</button>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<br>
+<div class="content_box" id="content_box">
+    <table>
+        <tr>
+            <td class="menu_col" valign="top">
+                <div class="menu_div">Menu</div>
+                <div class="menu_div">List of menu</div>
+                <div class="menu_div"><a href="#" id="link0" onclick="changeContent(this)">Welcome!</a></div>
+                <ul>
+                    <li><a href="#" id="link1" onclick="changeContent(this)">Russia</a></li>
+                    <li><a href="#" id="link2" onclick="changeContent(this)">Putin</a></li>
+                    <li><a href="#" id="link3" onclick="changeContent(this)">Vodka</a></li>
+                    <li><a href="#" id="link4" onclick="changeContent(this)">Valenki</a></li>
+                    <li><a href="#" id="link5" onclick="changeContent(this)">Hypersonic weapon</a></li>
+                    <li><a href="#" id="link6" onclick="changeContent(this)">Search</a></li>
+                    <li><a href="#" id="link7" onclick="changeContent(this)">Comment</a></li>
+                    <li><a href="#" id="link8" onclick="changeContent(this)">References</a></li>
+                </ul>
+
+                <div class="validator_div">
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                         src="http://jigsaw.w3.org/css-validator/images/vcss"
+                         alt="Правильный CSS!" />
+                </a>
+            </div>
+                <div class="validator_div">
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                             src="img/valid-xhtml10.png"
+                             alt="Правильный CSS!" />
+                    </a>
+                </div>
+
+
+            </td>
+            <td class="content_col" valign="top">
+                <div id="lnk0" class="lnk0">
+                    <div class="welcome_div"><h2>Welcome!</h2></div>
+                </div>
+                <div id="lnk1" class="lnk1">
+                    Russia (Russian: Россия, Rossiya, Russian pronunciation: [rɐˈsʲijə]), or the Russian Federation,[c] is a transcontinental country spanning Eastern Europe and Northern Asia. It is the largest country in the world; covering over 17,125,191 square kilometres (6,612,073 sq mi), consisting of more than one-eighth of the Earth's inhabited land area, extending to eleven time zones, and has borders with sixteen sovereign nations. Russia has a population of 146.7 million; and is the ninth-most populous country, as well as the most populous country in Europe. Moscow, the capital, is the largest city in Europe, while Saint Petersburg is the second-largest city and the country's cultural centre. Russians are the largest Slavic and European nation; speaking Russian, the most spoken Slavic language, and the most spoken native language in Europe.
+                </div>
+                <div id="lnk2" class="lnk2">
+                    Vladimir Vladimirovich Putin[d] (born 7 October, 1952) is a Russian politician and former intelligence officer who is serving as the current president of Russia since 2012, previously being in the office from 1999 until 2008.[7][e] He was also prime minister from 1999 to 2000 and again from 2008 to 2012.
+
+                    Putin was born in Leningrad (now Saint Petersburg) and studied law at Leningrad State University, graduating in 1975. Putin worked as a KGB foreign intelligence officer for 16 years, rising to the rank of Lieutenant Colonel, before resigning in 1991 to begin a political career in Saint Petersburg. He later moved to Moscow in 1996 to join the administration of President Boris Yeltsin. He briefly served as Director of the Federal Security Service (FSB) and Secretary of the Security Council, before being appointed as prime minister in August 1999. After the resignation of Yeltsin, Putin became acting president, and less than four months later was elected outright to his first term as president and was reelected in 2004. As he was then constitutionally limited to two consecutive terms as president, Putin chose to become the prime minister again from 2008 to 2012, and was reelected as president in 2012, and again in 2018.
+                </div>
+                <div id="lnk3" class="lnk3">
+                    Vodka (Polish: wódka [ˈvutka], Russian: водка [ˈvotkə], Swedish: vodka [vɔdkɑː]) is a clear distilled alcoholic beverage with different varieties originating in Poland, Russia and Sweden.[1][2] It is composed primarily of water and ethanol, but sometimes with traces of impurities and flavorings. Traditionally it is made by distilling the liquid from cereal grains that have been fermented, with potatoes arising as a substitute in more recent times, and some modern brands using fruits, honey or maple sap as the base.
+                </div>
+                <div id="lnk4" class="lnk4">
+                    Valenki (Russian: ва́ленки, IPA: [ˈvalʲɪnkʲɪ]; sg valenok (Russian: ва́ленок, IPA: [ˈvalʲɪnək])) are traditional Russian winter footwear, essentially felt boots: the name valenok literally means "made by felting". Valenki are made of wool felt. They are not water-resistant, and are often worn with galoshes to keep water out and protect the soles from wear and tear. Valenki were once the footwear of choice for many Russians, but in the second half of the 20th century they lost most of their appeal in cities, due to their association with rustic dress.
+                </div>
+                <div id="lnk5" class="lnk5">
+                    The Avangard (Russian: Авангард; English: Vanguard; previously known as Objekt 4202, Yu-71 and Yu-74) is a Russian hypersonic glide vehicle (HGV) that can be carried as a MIRV payload by the UR-100UTTKh,[7][8] R-36M2 and RS-28 Sarmat heavy ICBMs. It can deliver both nuclear and conventional payloads.[9][10][11]
+
+                    The Avangard is one of the six new Russian strategic weapons unveiled by Russian President Vladimir Putin on 1 March 2018.
+                    <img src="img/avangard.jpg" alt="whatever"/>
+                </div>
+                <div id="lnk6" class="lnk6">
+                    <div>Search by keyword</div><input type="text" id="keyword"/><button>Search</button>
+                </div>
+                <div id="lnk7" class="lnk7">
+                    <div>Leave a comment</div><input type="text" id="comment"/><button>Publish</button>
+                </div>
+                <div id="lnk8" class="lnk8">
+                    References
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
